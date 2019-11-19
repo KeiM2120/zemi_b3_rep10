@@ -131,13 +131,13 @@ home.ejs
 
 ![7-06.ejs](img/7-06.png)
 
-+++
++++?image=img/7-07.png&size=contain
 
 ユーザ新規作成ページの作成
 
 add.ejs
 
-![7-07.ejs](img/7-07.png)
+
 
 +++?code=src/7-08.css
 
