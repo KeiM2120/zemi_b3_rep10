@@ -47,10 +47,6 @@ $ npm install --save bookshelf
 
 #### ユーザの情報を管理するテーブル user
 
-
-
-
-
 - id: INT
   -  PRIMARY_KEY, AUTO_INC : 識別用番号 
 - name : VARCHAR(255)
@@ -67,13 +63,16 @@ $ npm install --save bookshelf
 
 #### 掲示板のメッセージを管理するテーブル messages
 
-| 名前 | 型 | 追加情報 | 役割|
-|:---|:---|:---| :---|
-|id| INT | PRIMARY_KEY, AUTO_INC | 識別用番号| 
-|id| INT | | 投稿したユーザの識別番号 |
-| message | VARCHAR(255) |  | 投稿内容|
-| created_at | TEXT | | 作成した日時 |
-| updated_at | TEXT | | 更新した日時 |
+- id: INT
+  -  PRIMARY_KEY, AUTO_INC : 識別用番号 
+- user_id: INT
+  -  投稿したユーザの識別番号
+- message : TEXT
+  - 投稿内容
+- created_at: DATETIME
+  - 投稿日時
+- updated_at: DATETIME
+  - 更新日時
 
 
 +++
