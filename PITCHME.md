@@ -119,13 +119,13 @@ index.ejs
 <% } %>
 ```
 
-+++?code=src/7-04.ejs
++++?code=src/7-04.ejs&size=contain
 
 #### データ構造の定義　data_item.ejs
 
 +++
 
-### ユーザのホームページを作成する
+ユーザのホームページを作成する
 
 home.ejs
 
@@ -133,7 +133,7 @@ home.ejs
 
 +++
 
-### ユーザ新規作成ページの作成
+ユーザ新規作成ページの作成
 
 add.ejs
 
