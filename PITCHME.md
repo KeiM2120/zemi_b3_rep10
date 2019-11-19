@@ -268,7 +268,7 @@ $ npm install --save bookshelf
 
 index.ejs
 
-+++?image=img/7-15.png
++++?image=img/7-15.png&size=contain
 
 +++
 
@@ -302,7 +302,7 @@ index.ejs
 
 login.ejs
 
-割愛|
+- 割愛|
 
 +++
 
@@ -353,10 +353,25 @@ routes/add.js
 +++?image=img/7-23-1.png&size=contain
 +++?image=img/7-23-2.png&size=contain
 
-
++++
 ### markdownデータの表示を行う動作の作成
 
 routes/mark.js
 
 +++?image=img/7-24-1.png&size=contain
 +++?image=img/7-24-2.png&size=contain
+
++++
+
+### 実際に使ってみる
+
++++?image=img/mark01.png&size=contain
++++?image=img/mark02.png&size=contain
++++?image=img/mark03.png&size=contain
++++?image=img/mark04.png&size=contain
++++?image=img/mark05.png&size=contain
+
+
+---
+
+## その他蛇足
