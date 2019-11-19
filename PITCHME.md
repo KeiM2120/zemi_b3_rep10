@@ -48,13 +48,14 @@ $ npm install --save bookshelf
 #### ユーザの情報を管理するテーブル user
 
 +++
-
+@size[2.5em](
 | 名前 | 型 | 追加情報 | 役割|
 |:---|:---|:---| :---|
 |id| INT | PRIMARY_KEY, AUTO_INC | 識別用番号| 
 |name| VARCHAR(255) |  | ユーザの名前|
 | password | VARCHAR(255) | | ユーザのパスワード |
 | comment | VARCHAR(255) | | コメント |
+)
 
 +++
 
