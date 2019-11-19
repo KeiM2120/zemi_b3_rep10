@@ -209,3 +209,23 @@ home.js
 ---
 
 ## 7-2 Markdownデータ管理ツール
+
++++
+
+### 本節での目的
+Markdownで作成した文書を管理、検索する機能のアプリケーション
+
++++
+
+### 下準備
+
+```shell
+$ express -e 
+
+$ npm install --save express-sessions
+$ npm install --save express-validator
+$ npm install --save mysql
+$ npm install --save knex
+$ npm install --save bookshelf
+```
+
