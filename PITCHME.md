@@ -101,17 +101,27 @@ CREATE TABLE `messages` (
 
 +++
 
-#### トップページをつくる
+### トップページをつくる
+
+
+index.ejs
+
++++
+
 ![7-03.ejs](img/7-03.png)
 
-
 +++
 
-#### 別ファイルに記述する場合
+#### 投稿されるメッセージを出力
+```ejs
+<% for(var i in collection) { %>
+<%- include('data_item', {val:collection[i]}) %>
+<% } %>
+```
 
-+++
++++?code=src/7-04.ejs
 
-#### scriptタグ内でソースファイルを指定
+#### データ構造の定義　data_item.ejs
 
 +++
 
