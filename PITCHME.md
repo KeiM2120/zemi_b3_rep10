@@ -106,9 +106,9 @@ CREATE TABLE `messages` (
 
 index.ejs
 
-+++
++++?image=img/7-05.png&size=contain
 
-![7-03.ejs](img/7-03.png)
+
 
 +++
 
@@ -125,26 +125,75 @@ index.ejs
 
 +++
 
-ユーザのホームページを作成する
+### ユーザのホームページを作成する
 
 home.ejs
 
-![7-06.ejs](img/7-06.png)
++++?image=img/7-06.png&size=contain
 
-+++?image=img/7-07.png&size=contain
++++
 
-ユーザ新規作成ページの作成
+### ユーザ新規作成ページの作成
 
 add.ejs
 
++++?image=img/7-07.png&size=contain
 
 
-+++?code=src/7-08.css
++++
 
 ### スタイルシートの用意
 
+style.css
+
++++?image=img/7-08.png&size=contain
+
 +++
-### 変数
+### メインのアプリケーション部分を作成
+
+app.js
+
++++?image=img/7-09.png&size=contain
+
+
+### トップページの動作を作成
+
+rouer/index.js
+
++++?image=img/7-10-1.png&size=contain
++++?image=img/7-10-2.png&size=contain
+
+
++++
+### ユーザ管理の動作を作成
+
+user.js
+
++++?image=img/7-11-1.png&size=contain
++++?image=img/7-11-2.png&size=contain
+
++++
+
+### ユーザホームページ部分の動作を作成
+
+home.js
+
++++?image=img/7-12-1.png&size=contain
++++?image=img/7-12-2.png&size=contain
+
++++
+
+### 実際に使ってみる
+
++++
+
++++?image=img/bord01.png&size=contain
++++?image=img/bord02.png&size=contain
++++?image=img/bord03.png&size=contain
++++?image=img/bord04.png&size=contain
+
+
++++
 
 #### 変数の宣言
 
