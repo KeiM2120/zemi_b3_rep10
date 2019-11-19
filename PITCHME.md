@@ -106,7 +106,7 @@ CREATE TABLE `messages` (
 
 index.ejs
 
-+++?image=img/7-05.png&size=auto 90%
++++?image=img/7-05.png&size=contain
 
 
 
@@ -119,7 +119,7 @@ index.ejs
 <% } %>
 ```
 
-+++?code=src/7-04.ejs&size=auto 90%
++++?code=src/7-04.ejs&size=contain
 
 #### データ構造の定義　data_item.ejs
 
@@ -129,7 +129,7 @@ index.ejs
 
 home.ejs
 
-+++?image=img/7-06.png&size=auto 90%
++++?image=img/7-06.png&size=contain
 
 +++
 
@@ -137,7 +137,7 @@ home.ejs
 
 add.ejs
 
-+++?image=img/7-07.png&size=auto 90%
++++?image=img/7-07.png&size=contain
 
 
 +++
@@ -146,22 +146,22 @@ add.ejs
 
 style.css
 
-+++?image=img/7-08.png&size=auto 90%
++++?image=img/7-08.png&size=contain
 
 +++
 ### メインのアプリケーション部分を作成
 
 app.js
 
-+++?image=img/7-09.png&size=auto 90%
++++?image=img/7-09.png&size=contain
 
 +++
 ### トップページの動作を作成
 
 routes/index.js
 
-+++?image=img/7-10-1.png&size=auto 90%
-+++?image=img/7-10-2.png&size=auto 90%
++++?image=img/7-10-1.png&size=contain
++++?image=img/7-10-2.png&size=contain
 
 
 +++
@@ -169,8 +169,8 @@ routes/index.js
 
 user.js
 
-+++?image=img/7-11-1.png&size=auto 90%
-+++?image=img/7-11-2.png&size=auto 90%
++++?image=img/7-11-1.png&size=contain
++++?image=img/7-11-2.png&size=contain
 
 +++
 
@@ -178,18 +178,18 @@ user.js
 
 home.js
 
-+++?image=img/7-12-1.png&size=auto 90%
-+++?image=img/7-12-2.png&size=auto 90%
++++?image=img/7-12-1.png&size=contain
++++?image=img/7-12-2.png&size=contain
 
 +++
 
 ### 実際に使ってみる
 
-+++?image=img/bord01.png&size=auto 90%
-+++?image=img/bord02.png&size=auto 90%
-+++?image=img/bord03.png&size=auto 90%
-+++?image=img/bord04.png&size=auto 90%
-+++?image=img/bord05.png&size=auto 90%
++++?image=img/bord01.png&size=contain
++++?image=img/bord02.png&size=contain
++++?image=img/bord03.png&size=contain
++++?image=img/bord04.png&size=contain
++++?image=img/bord05.png&size=contain
 
 
 +++
@@ -310,7 +310,7 @@ login.ejs
 
 mark.ejs
 
-+++?image=img/7-18.png
++++?image=img/7-18.png&size=contain
 
 +++
 
@@ -318,22 +318,22 @@ mark.ejs
 
 style.css
 
-+++?image=img/7-19.png
++++?image=img/7-19.png&size=contain
 
 +++
 ### アプリケーション部分の作成
 app.js
 
-+++?image=img/7-20-1.png
-+++?image=img/7-20-2.png
++++?image=img/7-20-1.png&size=contain
++++?image=img/7-20-2.png&size=contain
 
 +++
 
 ### トップページの動作を作成
 routes/inde.js
 
-+++?image=img/7-21-1.png
-+++?image=img/7-21-2.png
++++?image=img/7-21-1.png&size=contain
++++?image=img/7-21-2.png&size=contain
 
 +++
 
@@ -341,8 +341,8 @@ routes/inde.js
 
 routes/login.js
 
-+++?image=img/7-22-1.png
-+++?image=img/7-22-2.png
++++?image=img/7-22-1.png&size=contain
++++?image=img/7-22-2.png&size=contain
 
 +++
 
@@ -350,13 +350,13 @@ routes/login.js
 
 routes/add.js
 
-+++?image=img/7-23-1.png
-+++?image=img/7-23-2.png
++++?image=img/7-23-1.png&size=contain
++++?image=img/7-23-2.png&size=contain
 
 
 ### markdownデータの表示を行う動作の作成
 
 routes/mark.js
 
-+++?image=img/7-24-1.png
-+++?image=img/7-24-2.png
++++?image=img/7-24-1.png&size=contain
++++?image=img/7-24-2.png&size=contain
