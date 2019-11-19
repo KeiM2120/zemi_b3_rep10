@@ -133,20 +133,17 @@ home.ejs
 
 +++
 
-### いろいろな値
-- 数値 'number' 型 |
-    - 100, 3.14
-- 文字列 'string' 型 |
-    - 'Hello', "world"
-- 真偽値　'boolean' 型 |
-    - true, false
-- null型 |
-- undefined型 |
+### ユーザ新規作成ページの作成
 
-#### typeof hoge で型が分かる
+add.ejs
+
+![7-07.ejs](img/7-07.png)
+
++++?code=src/7-08.css
+
+### スタイルシートの用意
 
 +++
-
 ### 変数
 
 #### 変数の宣言
