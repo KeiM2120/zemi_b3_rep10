@@ -59,6 +59,19 @@ $ npm install --save bookshelf
 
 +++
 
+#### SQL文にすると
+
+```sql
+CREATE TABLE `users` (
+        `id`        INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+        `name`        TEXT NOT NULL,
+        `password`        TEXT NOT NULL,
+        `comment`        TEXT
+);
+```
+
++++
+
 ### テーブルの定義をする(2)
 
 #### 掲示板のメッセージを管理するテーブル messages
@@ -74,10 +87,21 @@ $ npm install --save bookshelf
 - updated_at: DATETIME
   - 更新日時
 
-
 +++
 
-#### htmlに記述する場合
+```sql
+CREATE TABLE `messages` (
+        `id`        INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+        `user_id`        INTEGER NOT NULL,
+        `message`        TEXT NOT NULL,
+        `created_at`        REAL,
+        `updated_at`        REAL
+);
+```
+
++++?code=src/7-03.ejs
+
+#### トップページをつくる
 
  < script > </ script >の間に記入する
 
