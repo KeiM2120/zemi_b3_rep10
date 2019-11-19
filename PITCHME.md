@@ -158,7 +158,7 @@ app.js
 +++
 ### トップページの動作を作成
 
-rouer/index.js
+routes/index.js
 
 +++?image=img/7-10-1.png&size=contain
 +++?image=img/7-10-2.png&size=contain
@@ -217,6 +217,11 @@ Markdownで作成した文書を管理、検索する機能のアプリケーシ
 
 +++
 
+そもそもMarkdownって...?
+このスライドのために嫌になるほど書いたので割愛 |
+
++++
+
 ### 下準備
 
 ```shell
@@ -229,3 +234,128 @@ $ npm install --save knex
 $ npm install --save bookshelf
 ```
 
++++
+
+### テーブルの定義をする(1)
+
+#### ユーザの情報を管理するテーブル user
+
+前節にて作成してるのでそれを再利用
+
++++
+
+### テーブルの定義をする(2)
+#### markdownの情報を管理するテーブル markdata
+
+- id: INT
+  - PRIMARY_KEY, AUTO_INC : 識別用番号 
+- user_id: INT
+  - 投稿したユーザの識別番号
+- title: VARCHAR(255)
+  - タイトル
+- content: TEXT
+  - 実際の中身
+- created_at: DATETIME
+  - 投稿日時
+- updated_at: DATETIME
+  - 更新日時
+
++++
+
+## view部分の作成
+### 文書検索ページ
+
+index.ejs
+
++++?image=img/7-15.png
+
++++
+
+### 文書検索フォーム
+
+```ejs
+<form action="/" method="post">
+    <input type="text" name="find" size="40" value="<%= form.find %>">
+    <input type="submit" value="検索">
+</form>
+```
+
++++
+
+#### 検索結果の表示部分
+
+```ejs
+<% for (var i in content) { %>
+    <% if (content[i].attributes.user_id != login.id) { continue; } %>
+        <li>
+            <a href="/mark/<%=content[i].id %>">
+                <%=content[i].attributes.title %>
+            </a>
+        </li>
+<% } %>
+```
+
++++
+
+### ログイン画面の作成
+
+login.ejs
+
+割愛|
+
++++
+
+### markdownの記入と表示を行う
+
+mark.ejs
+
++++?image=img/7-18.png
+
++++
+
+### スタイルシートの用意
+
+style.css
+
++++?image=img/7-19.png
+
++++
+### アプリケーション部分の作成
+app.js
+
++++?image=img/7-20-1.png
++++?image=img/7-20-2.png
+
++++
+
+### トップページの動作を作成
+routes/inde.js
+
++++?image=img/7-21-1.png
++++?image=img/7-21-2.png
+
++++
+
+### ログイン動作の作成
+
+routes/login.js
+
++++?image=img/7-22-1.png
++++?image=img/7-22-2.png
+
++++
+
+### markdownデータの追加を行う動作の作成
+
+routes/add.js
+
++++?image=img/7-23-1.png
++++?image=img/7-23-2.png
+
+
+### markdownデータの表示を行う動作の作成
+
+routes/mark.js
+
++++?image=img/7-24-1.png
++++?image=img/7-24-2.png
