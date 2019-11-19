@@ -106,7 +106,7 @@ CREATE TABLE `messages` (
 
 index.ejs
 
-+++?image=img/7-05.png&size=contain
++++?image=img/7-05.png&size=auto 90%
 
 
 
@@ -119,7 +119,7 @@ index.ejs
 <% } %>
 ```
 
-+++?code=src/7-04.ejs&size=contain
++++?code=src/7-04.ejs&size=auto 90%
 
 #### データ構造の定義　data_item.ejs
 
@@ -129,7 +129,7 @@ index.ejs
 
 home.ejs
 
-+++?image=img/7-06.png&size=contain
++++?image=img/7-06.png&size=auto 90%
 
 +++
 
@@ -137,7 +137,7 @@ home.ejs
 
 add.ejs
 
-+++?image=img/7-07.png&size=contain
++++?image=img/7-07.png&size=auto 90%
 
 
 +++
@@ -146,22 +146,22 @@ add.ejs
 
 style.css
 
-+++?image=img/7-08.png&size=contain
++++?image=img/7-08.png&size=auto 90%
 
 +++
 ### メインのアプリケーション部分を作成
 
 app.js
 
-+++?image=img/7-09.png&size=contain
++++?image=img/7-09.png&size=auto 90%
 
 +++
 ### トップページの動作を作成
 
 routes/index.js
 
-+++?image=img/7-10-1.png&size=contain
-+++?image=img/7-10-2.png&size=contain
++++?image=img/7-10-1.png&size=auto 90%
++++?image=img/7-10-2.png&size=auto 90%
 
 
 +++
@@ -169,8 +169,8 @@ routes/index.js
 
 user.js
 
-+++?image=img/7-11-1.png&size=contain
-+++?image=img/7-11-2.png&size=contain
++++?image=img/7-11-1.png&size=auto 90%
++++?image=img/7-11-2.png&size=auto 90%
 
 +++
 
@@ -178,18 +178,18 @@ user.js
 
 home.js
 
-+++?image=img/7-12-1.png&size=contain
-+++?image=img/7-12-2.png&size=contain
++++?image=img/7-12-1.png&size=auto 90%
++++?image=img/7-12-2.png&size=auto 90%
 
 +++
 
 ### 実際に使ってみる
 
-+++?image=img/bord01.png&size=contain
-+++?image=img/bord02.png&size=contain
-+++?image=img/bord03.png&size=contain
-+++?image=img/bord04.png&size=contain
-+++?image=img/bord05.png&size=contain
++++?image=img/bord01.png&size=auto 90%
++++?image=img/bord02.png&size=auto 90%
++++?image=img/bord03.png&size=auto 90%
++++?image=img/bord04.png&size=auto 90%
++++?image=img/bord05.png&size=auto 90%
 
 
 +++
@@ -219,14 +219,14 @@ Markdownで作成した文書を管理、検索する機能のアプリケーシ
 
 そもそもMarkdownって...?
 
-このスライドのために嫌になるほど書いたので割愛|
+- このスライドのために嫌になるほど書いたので割愛|
 
 +++
 
 ### 下準備
 
 ```shell
-$ express -e 
+$ express -e mark_app
 
 $ npm install --save express-sessions
 $ npm install --save express-validator
