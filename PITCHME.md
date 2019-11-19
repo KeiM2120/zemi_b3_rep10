@@ -99,11 +99,11 @@ CREATE TABLE `messages` (
 );
 ```
 
-+++?code=src/7-03.ejs
++++
 
 #### トップページをつくる
+![7-03.ejs](img/7-03.png)
 
- < script > </ script >の間に記入する
 
 +++
 
